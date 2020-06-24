@@ -1,0 +1,20 @@
+#container{
+    width:1140px;
+    background-color: aquamarine;
+}
+
+#targets{
+    width:75%;
+    background-color: antiquewhite;
+    float: left;
+}
+
+#other{
+    width: 25%;
+    background-color: darkseagreen;
+    float:left;
+}
+
+#author{
+    border:2px solid pink;
+}
