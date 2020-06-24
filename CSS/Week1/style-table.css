@@ -1,0 +1,25 @@
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+table td,table th{
+    border:1px solid grey;
+    padding: 6px;
+}
+table th{
+    color: white;
+    
+}
+table tr:nth-of-type(odd){
+    background-color: lightgray;
+}
+table tr:hover{
+    background-color: antiquewhite
+}
+.hotpink th{
+    background-color: hotpink;
+}
+.lightpink th{
+    background-color: lightpink;
+}
