@@ -1,20 +1,31 @@
 #container{
     width:1140px;
-    background-color: aquamarine;
 }
 
 #targets{
     width:75%;
-    background-color: antiquewhite;
     float: left;
 }
 
+.firsttarget{
+    position: relative;
+    
+}
 #other{
     width: 25%;
-    background-color: darkseagreen;
+    background-color: antiquewhite;
     float:left;
+    position: fixed;
+    top:20px;
+    left:861px;
 }
 
+
+.date{
+    position: absolute;
+    top:0px;
+    right:20px;
+}
 #author{
     border:2px solid pink;
 }
