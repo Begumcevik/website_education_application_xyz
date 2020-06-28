@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+
+}
+
+
+
+#targets {
+    box-sizing: border-box;
+    width: 75%;
+    float: left;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.target {
+    position: relative;
+    background-color: antiquewhite;
+    margin-bottom: 15px;
+    padding: 20px;
+
+}
+
+
+#other {
+    box-sizing: border-box;
+    width: 23%;
+    background-color: antiquewhite;
+    float: left;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+#msgbox {
+    padding: 20px;
+    margin: 50px;
+    width: 200px;
+    border-radius: 3px;
+    border: 3px groove pink;
+}
+
+.date {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+#tags li {
+    list-style: none;
+}
+
+#author {
+    border: 2px solid pink;
+}
+
+#nav {
+    background-color: black;
+}
+
+#nav ul {
+    list-style-type: none;
+}
+
+#nav ul li {
+    float: left;
+}
+
+#nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px;
+
+
+}
