@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:10px;
+    
+}
+body {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size:1.6rem;
+    background-color: rgb(76, 72, 64);
+} 
+
+p{
+    padding:1.6rem 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*/ header/*/
+
+.bg-image {
+    background-image: 
+        url(Marsta-koloni-754x365.jpg);
+     background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 45rem;
+    width: 100%;
+    opacity:0.6;
+    z-index: -1;
+    
+}
+
+.content{
+    color:white;
+    opacity: 1;
+}
+.heading {
+    text-transform: uppercase;
+    padding: 11rem;
+    padding-bottom:0px;
+    
+}
+
+.heading-main {
+    display: block;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+
+.btn{
+    display: inline-block;
+    background: #333;
+    color:#fff;
+    border: 2px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin:.5rem 0;
+    transition: all 0.3sn;
+}
+
+
+.btn:hover{
+    background-color: #eaeaea;
+    color:#333;
+    
+}
+
