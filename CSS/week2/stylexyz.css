@@ -9,10 +9,10 @@ html{
     
 }
 body {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
     font-size:1.6rem;
-    background-color: rgb(76, 72, 64);
+    background-color: #A9BFA6;
 } 
 
 p{
@@ -23,15 +23,20 @@ a{
     text-decoration: none;
 }
 
+img{
+    width:100%;
+    height:auto;
+}
+
 /*/ header/*/
 
 .bg-image {
     background-image: 
         url(Marsta-koloni-754x365.jpg);
-     background-size: cover;
+    background-size: cover;
     background-position: center;
     position: absolute;
-    height: 45rem;
+    height: 54rem;
     width: 100%;
     opacity:0.6;
     z-index: -1;
@@ -61,8 +66,8 @@ a{
     background: #333;
     color:#fff;
     border: 2px solid #666;
-    padding: 1.6rem 3.2rem;
-    margin:.5rem 0;
+    padding: 1.0rem 1.0rem;
+    margin:.5rem 1.6rem;
     transition: all 0.3sn;
 }
 
@@ -73,3 +78,86 @@ a{
     
 }
 
+
+/*section-a*/
+#section-a{
+	background-color: rgb(76, 72, 64);
+	color:white;
+	padding: 3.2rem 3.2rem;
+    margin-top:4.8rem;
+    border-radius: 5px;
+    width:100%;
+    
+}
+
+
+
+/*section-b*/
+#section-b{
+	padding: 2rem;
+}
+
+#section-b p {
+    font-size:15px;
+}
+
+#section-b ul {
+	list-style: none;
+}
+
+#section-b li {
+	background: rgb(76, 72, 64);
+	color:#fff;
+	margin-top: 2.5rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    border-radius: 5px;
+}
+
+.col-content {
+	padding: 1.5rem;
+}
+
+/*section c*/
+
+#section-c .box {
+	padding: 5rem;
+    margin-top:0;
+}
+
+#section-c .box:first-child {
+	background-color:#C9732A;
+    margin-top:0;
+}
+
+#section-c ul{
+    padding-left: 40%;
+}
+
+#section-c ul li{
+    list-style: none;
+    font-size:3.2rem;
+    float:left;
+    display:inline-block;
+    letter-spacing:20px;
+}
+
+/*footer*/
+footer {
+	padding: 4rem;
+	background: #000;
+    color:antiquewhite;
+}
+
+footer a {
+	color:#2690d4;
+}
+
+@media screen and (min-width:700px){
+    #section-b li{
+        width:28%;
+        margin:1%;
+        display: inline-block;
+    }
+    
+}
